@@ -19,7 +19,7 @@ public class Elastic extends SubsystemBase {
   @Override
   public void periodic() {
     double kP = SmartDashboard.getNumber("Input kP", Constants.ElasticConstants.Kp);
-    //System.out.println(kP);
+    //System.out.println(kP); -- dont include this for noe
     SmartDashboard.putNumber("Return kP", kP);
   }
 }
